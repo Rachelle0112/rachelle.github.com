@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+  background-color: #fff; /* Set the background color to white */
+  font-family: Arial, sans-serif;
+  margin: 0px; /* Remove default margin */
+  padding: 0px; /* Remove default padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; /* Set the body to full height of the viewport */
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  font-size: 25px;
+  border: none;
+  background-size: cover;
+  background-position: center;
+
+}
+header nav {
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  }
+
+header h1 {
+ margin: 0px;
+
+ top: 20px;
+ color: white;
+ cursor: pointer;
+ text-align: center;
+ padding: 20px;
+ align-items: center;
+ justify-content: center;
+
+ 
+}
+
+form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 25px;
+  background-color: #f4f4f4; /* Set the form background color */
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20% ;
+  font-size: 100px;
+  
+  
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+
+   
+}
+
+label {
+  margin: 0%;
+  margin-bottom: 5px;
+  text-align-last: left;
+  font-size: 25px;
+}
+
+input {
+  width: 100% ;
+  padding: 0px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  font-size: 15px;
+  
+}
+
+button {
+  background-color:#eaeaec; /* Set button background color */
+  color: #151414; /* Set button text color to white */
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  align-content:end
+
+}
+
+button:hover {
+  background-color: #2966a2; /* Change button color on hover */
+  border-radius: 4%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.back-arrow {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+.back-arrow:hover {
+  color: #555;
+}
+
